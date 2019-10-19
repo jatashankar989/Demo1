@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 42.964 s <<< FAILURE! - in TestSuite
+revokeBrowser(Practical.testingInclusion)  Time elapsed: 22.582 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'JATASHANKAR', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at Practical.testingInclusion.revokeBrowser(testingInclusion.java:21)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:1429/status] to be available after 20008 ms
+	at Practical.testingInclusion.revokeBrowser(testingInclusion.java:21)
+Caused by: java.util.concurrent.TimeoutException
+	at Practical.testingInclusion.revokeBrowser(testingInclusion.java:21)
+
+goForBrowser(Practical.testingInclusion2)  Time elapsed: 20.17 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Timed out waiting for driver server to start.
+Build info: version: '4.0.0-alpha-3', revision: '8c567de6dc'
+System info: host: 'JATASHANKAR', ip: '192.168.1.6', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver
+	at Practical.testingInclusion2.goForBrowser(testingInclusion2.java:21)
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:26768/status] to be available after 20004 ms
+	at Practical.testingInclusion2.goForBrowser(testingInclusion2.java:21)
+Caused by: java.util.concurrent.TimeoutException
+	at Practical.testingInclusion2.goForBrowser(testingInclusion2.java:21)
+

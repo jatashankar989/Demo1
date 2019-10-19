@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17631" started-at="2019-10-15T16:31:03 IST" finished-at="2019-10-15T16:31:20 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17631" started-at="2019-10-15T16:31:03 IST" finished-at="2019-10-15T16:31:20 IST">
+      <class name="Practical.testingInclusion2">
+        <test-method status="PASS" signature="goForBrowser()[pri:0, instance:Practical.testingInclusion2@1165b38]" name="goForBrowser" is-config="true" duration-ms="4258" started-at="2019-10-15T16:31:03 IST" finished-at="2019-10-15T16:31:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goForBrowser -->
+        <test-method status="PASS" signature="pageReview(java.lang.String, java.lang.String)[pri:0, instance:Practical.testingInclusion2@1165b38]" name="pageReview" duration-ms="11101" started-at="2019-10-15T16:31:07 IST" data-provider="providerData" finished-at="2019-10-15T16:31:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajeshSheldonLeonard]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AmyPennyBernaddate]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageReview -->
+        <test-method status="PASS" signature="closingBrowser()[pri:0, instance:Practical.testingInclusion2@1165b38]" name="closingBrowser" is-config="true" duration-ms="2203" started-at="2019-10-15T16:31:18 IST" finished-at="2019-10-15T16:31:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- Practical.testingInclusion2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
